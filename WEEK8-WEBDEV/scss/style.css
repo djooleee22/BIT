@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+ul {
+  background-color: yellow;
+  border: 3px solid green;
+}
+ul li {
+  background-color: purple;
+}
+ul li:hover {
+  background-color: aqua;
+}
+
+header {
+  background-color: red;
+  height: 200px;
+}
+@media screen and (min-width: 768px) {
+  header {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header {
+    background-color: blue;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 30px;
+  color: green;
+  background-color: lightgreen;
+  height: 50px;
+  padding: 10px;
+}
+
+.header-dva {
+  height: 30px;
+  background-color: olive;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.header-dva a:link,
+.header-dva a:visited {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.header-dva a:hover,
+.header-dva a:active {
+  font-weight: 600;
+  color: red;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  display: inline;
+}
+
+.biggest-content {
+  width: 700px;
+  margin: 30px auto;
+  margin-bottom: 50px;
+}
+
+h2 {
+  border-left: 3px solid green;
+  padding-left: 3px;
+  margin-bottom: 15px;
+}
+
+.about-frog {
+  border-bottom: 2px solid rgba(144, 238, 144, 0.418);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.prvi-span {
+  color: olive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.drugi-span {
+  color: red;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.slike-box {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(144, 238, 144, 0.418);
+}
+
+.slike-box img {
+  margin-right: 10px;
+}
+
+form {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(144, 238, 144, 0.418);
+}
+
+.input {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 7px;
+  border: 1px solid rgba(128, 128, 128, 0.658);
+  outline: none;
+}
+
+.btn {
+  padding: 6px 26px;
+  border-radius: 12px;
+  background-color: olive;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: olive;
+
+  padding: 15px;
+}
+
+.footer-icons {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 5px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.footer-icons a:link,
+.footer-icons a:visited {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+.footer-icons a:hover,
+.footer-icons a:active {
+  font-size: 20px;
+  color: red;
+}
+
+.footer-icons img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.footer-icons span {
+  vertical-align: bottom;
+}

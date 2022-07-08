@@ -1,0 +1,45 @@
+#hiring-page {
+    text-align: center;
+    padding: 25px;
+
+    .wrapper {
+        padding: 25px;
+        display: inline-block;
+        width: 1000px;
+        background-color: rgba(255, 228, 196, 0.767);
+    }
+
+    h2 {
+       color: rgb(66, 66, 66);
+       margin-bottom: 25px;
+    }
+
+    .group {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    input {
+        width: 60%;
+        padding: 10px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .submit {
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 8px 10px;
+        margin-top: 15px;
+        background-color: rgb(40, 180, 226);
+        color: white;
+        cursor: pointer;
+    }
+}

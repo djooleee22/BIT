@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+td {
+  height: 50px;
+  background-color: brown;
+}
+
+.alice-blue {
+  background-color: aliceblue;
+}
+
+.hot-pink {
+  background-color: hotpink;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}

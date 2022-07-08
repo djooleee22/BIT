@@ -1,0 +1,24 @@
+img:nth-child(2){
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+}
+
+img:nth-child(4) {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+
+.treca {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: azure;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 3px 5px;
+}
+

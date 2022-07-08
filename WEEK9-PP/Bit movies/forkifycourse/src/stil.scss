@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: rgb(78, 78, 78);
+    background-color: rgba(255, 177, 82, 0.342);
+}
+
+header {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    justify-content: space-between;
+    padding: 20px 200px;
+    color: white;
+    align-items: center;
+    input {
+        padding: 5px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(65, 65, 65);
+    }
+    button {
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid rgb(65, 65, 65);
+        background-color: rgb(255, 177, 82);
+    }
+}
+
+.heading {
+    font-size: 22px;
+}
+
+.grid {
+    min-height: 83vh;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 90px;
+}
+
+.card {
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 10px 2px #0000007e;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.extras {
+    width: 300px;
+}
+
+
+.card-img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.single {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    button {
+        color: rgb(29, 28, 28);
+        padding: 5px 10px;
+        background-color: rgb(255, 177, 82);
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 5px 5px 10px 2px #0000007e;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    .flexDiv {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 55px;
+    }
+
+    ul {
+        list-style-position: inside;
+    }
+
+    li {
+        font-size: 20px;
+        padding-left: 3px;
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.default-btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 177, 82);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}

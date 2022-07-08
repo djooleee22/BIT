@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+body {
+  padding: 100px 50px 50px 500px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1mJSidOFL4IxItYbchdRnKe5HAVQCiydSA&usqp=CAU);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 5px;
+  z-index: 1;
+}
+
+header img {
+  height: 035px;
+  width: 35px;
+  cursor: pointer;
+}
+
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 380px;
+  background-color: rgba(0, 0, 255, 0.993);
+  color: white;
+  height: 100vh;
+  padding: 100px 20px 0 20px;
+}
+
+aside * {
+  color: rgba(255, 255, 255, 0.932);
+}
+
+aside h2 {
+  margin-bottom: 40px;
+}
+
+aside p {
+  margin-bottom: 8px;
+}
+
+.label {
+  margin-bottom: 30px;
+}
+
+aside select {
+  width: 200px;
+  color: grey;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+aside button {
+  color: grey;
+  background-color: rgba(255, 255, 255, 0.911);
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.kartica {
+  /* border: 2px solid rgba(128, 128, 128, 0.527); */
+  padding: 40px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+  position: relative;
+  background-color: white;
+}
+
+.kartica h2 {
+  color: rgba(0, 0, 255, 0.87);
+  margin-bottom: 10px;
+}
+
+.podnaslov {
+  margin-bottom: 10px;
+}
+
+.btn-top {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.747);
+  color: white;
+}
+
+.btn-left {
+  position: absolute;
+  bottom: 10px;
+  right: 120px;
+  font-weight: 600;
+  background: none;
+  border: none;
+}
+
+.btn-left span {
+  padding-bottom: 3px;
+  vertical-align: middle;
+}
+
+.btn-left img {
+  height: 15px;
+  width: 15px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.btn-right {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-weight: 600;
+  background: none;
+  border: none;
+}
+
+.btn-right span {
+  padding-bottom: 3px;
+  vertical-align: middle;
+}
+
+.btn-right img {
+  height: 15px;
+  width: 15px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.btn-flat {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.main-modal {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  background: rgba(255, 255, 255, 0.87);
+  height: 100%;
+  width: 100vw;
+  z-index: 5;
+  left: 0;
+  backdrop-filter: blur(5px);
+  
+  
+}
+
+.hide-modal {
+  display: none;
+}
+
+.modal {
+  height: 470px;
+  width: 400px;
+  margin: 130px auto;
+  background-color: white;
+  text-align: center;
+  padding: 40px 80px 5px 80px;
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.404);
+  box-shadow: 4px 5px 11px -5px rgba(0, 0, 0, 0.897);
+}
+
+
+.modal h2 {
+  margin-bottom: 30px;
+}
+
+.modal input {
+display: block;
+width: 100%;
+padding: 5px;
+background-color: rgba(233, 227, 227, 0.479);
+border: 1px solid rgba(128, 128, 128, 0.589);
+outline: none;
+margin-bottom: 5px;
+}
+
+.modal button {
+  width: 100%;
+  background-color: rgba(36, 36, 247, 0.904);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.modal a {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.modal a:hover {
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.modal p {
+  font-size: 10px;
+  height: 20px;
+}
+
+.modal p a {
+  text-decoration: underline;
+}
+
+.modal .btn-x {
+  height: 30px;
+ width: 30px;
+ font-size: 20px;
+ color: rgba(0, 0, 0, 0.685);
+ background: white;
+ position: absolute;
+ top: 4px;
+ right: 8px;
+ cursor: pointer;
+}
+
+
+
+
+

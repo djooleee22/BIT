@@ -1,0 +1,47 @@
+#modal {
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.575);
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
+    div {
+        padding: 15px;
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: rgba(233, 197, 97, 0.801);
+        color: rgba(0, 0, 0, 0.863);
+
+        a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.863);
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+    
+    .x {
+        position: absolute;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        color: rgb(63, 63, 63);
+        background-color: rgba(233, 197, 97, 0.801);
+        top: 20px;
+        right: 40px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}

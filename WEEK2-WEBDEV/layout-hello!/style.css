@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(61, 60, 60);
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.center {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav ul {
+  width: 100%;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 45px;
+}
+
+.nav li:not(:last-child) {
+  border-right: 3px solid grey;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  font-weight: 600;
+}
+
+.img-box {
+  margin-bottom: 30px;
+}
+
+.img-box img {
+  height: calc(100vh - 59.2px);
+  width: 100%;
+}
+
+.main {
+  text-align: justify;
+  margin-bottom: 50px;
+  padding: 20px 0;
+}
+
+.main h1 {
+  margin-bottom: 35px;
+}
+
+.main div {
+  text-align: center;
+}
+
+.table-section {
+  background-color: rgba(255, 166, 0, 0.445);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.table-section h2 {
+  margin-bottom: 25px;
+}
+
+table {
+  width: 1000px;
+  margin: 0 auto;
+  border-spacing: 0 30px;
+  background: rgb(255, 166, 0);
+  border-radius: 20px;
+  box-shadow: 2px 6px 13px -4px rgba(0, 0, 0, 0.527);
+}
+
+table th {
+  height: 40px;
+  background-color: rgb(255, 166, 0);
+  /* border-collapse: collapse; */
+  text-align: left;
+  padding-left: 10px;
+}
+
+table th:first-child {
+  padding-left: 20px;
+}
+
+table td {
+  text-align: left;
+  background-color: #fff;
+  padding: 8px;
+}
+
+td span {
+  vertical-align: super;
+}
+
+.user-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.red {
+  color: red;
+}
+
+.contact-btn:link,
+.contact-btn:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(58, 131, 214, 0.925);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.contact-btn:hover,
+.contact-btn:active {
+  font-weight: 500;
+}
+
+.status {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.active {
+  background-color: green;
+}
+
+.inactive {
+  background-color: red;
+}
+
+.last-section {
+  text-align: center;
+  color: rgb(61, 60, 60);
+  margin-bottom: 30px;
+}
+
+.last-section ul {
+  list-style-type: disclosure-closed;
+  list-style-position: inside;
+}
+
+.last-section h2 {
+  margin-bottom: 20px;
+}
+
+.last-section li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  padding: 20px;
+}

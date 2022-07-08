@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+#header {
+    background-color: rgba(255, 228, 196, 0.767);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        color: rgb(66, 66, 66);
+        font-family: "Acme";
+        font-size: 30px;
+        display: inline-block;
+        border: 2px solid rgb(66, 66, 66);
+        padding: 3px;
+        border-radius: 4px;
+    }
+    
+    .hire-btn {
+        font-family: sans-serif;
+        cursor: pointer;
+        font-size: 22px;
+        background-color: rgb(40, 180, 226);
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+    }
+}

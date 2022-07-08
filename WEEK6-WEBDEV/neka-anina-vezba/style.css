@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    min-height: calc(100vh - 75px);
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 600;
+}
+
+.login-link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.home-title {
+    text-align: center;
+    padding: 30px;
+}
+
+.users-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 900px;
+    margin: 0 auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 80px;
+}
+
+.card{
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.user-img {
+    border-radius: 5px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.arrow-btn {
+    background: none;   
+}
+
+.arrow {
+    width: 50px;
+    padding: 0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3-home {
+    text-align: center;
+}
+/*/////////////////////////////*/
+
+.dark .main-login {
+    background-color: black;
+    color: white;
+}
+
+.dark main {
+    background-color: black;
+    color: white;
+}
+
+
+

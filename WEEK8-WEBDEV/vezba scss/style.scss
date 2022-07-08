@@ -1,0 +1,40 @@
+@import "base";
+
+@mixin bcgBorder($c, $r) {
+    background-color: $c;
+    border-radius: $r;
+}
+
+@mixin centerEl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    @include bcgBorder(blue, 5px);
+}
+
+h1 {
+    @include centerEl()
+}
+
+.message {
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+.first-message {
+    @extend .message;
+    font-size: 20px;
+}
+
+.second-message {
+    @extend .message;
+    font-weight: 600;
+}
+
+.third-message {
+    @extend .message;
+    font-style: italic;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 30px;
+    font-size: 70px;
+}
+
+.flex {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+.card {
+    border: 1px solid grey;
+    /* width: 20%; */
+    flex: 1;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.bcgr-img {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTBiOZcZlVS54XLw-d9oSp5B-S5VSqeORGA&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bcgr-img2 {
+    background-image: url(https://freesvg.org/storage/img/thumb/1541381360.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card h2 {
+    font-size: 90px;
+    color: white;
+
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white
+}
+
+ul {
+    color: white;
+}
+
+li {
+    color: white;
+}

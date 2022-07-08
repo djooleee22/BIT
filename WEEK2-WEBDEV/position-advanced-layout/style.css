@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+background-color: orange;
+padding: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative  ul{
+    position: absolute;
+    top: 39px;
+    left: 0;
+    display: none;
+
+}
+
+.relative:hover > ul {
+    display: block;
+}
+
+.relative li {
+    display: block;
+    background-color: bisque;
+    padding: 5px 10px 5px 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.relative li:hover {
+    background-color: rgba(255, 166, 0, 0.63);
+}
