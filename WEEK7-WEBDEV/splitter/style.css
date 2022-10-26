@@ -65,7 +65,7 @@ input {
     margin-bottom: 20px;
 }
 
-.grid div:not(:last-child) {
+.grid div {
     background-color: rgb(103, 112, 151);
     color: white;
     text-align: center;
@@ -74,14 +74,14 @@ input {
     cursor: pointer;
 }
 
-.grid div:last-child {
+/* .grid div:last-child {
     background-color: rgb(236, 236, 236);
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: not-allowed;
-}
+} */
 
 .input-wrapper {
     position: relative;
