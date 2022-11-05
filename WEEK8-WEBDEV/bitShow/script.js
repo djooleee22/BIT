@@ -8,7 +8,6 @@ window.addEventListener("load", function () {
   this.fetch(`http://api.tvmaze.com/shows`)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       createGrid(data);
     });
 });
